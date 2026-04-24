@@ -1,5 +1,5 @@
 context:
-  version: "1.13.10"
+  version: "1.13.11"
 
 package:
   name: sing-box
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/SagerNet/sing-box/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: bac2de6fe2f60860af4c8b4fc21180698f1c3562a2fdbcc47c3ce66798db2987
+  sha256: 5e35f2cc0ad14d3beb1956157fe3f4b3a36787dd115f247c72f2d550d353853b
 
 build:
-  number: 2
+  number: 0
   script:
     - go-licenses save . --save_path library_licenses --ignore github.com/sagernet/
     - if: unix
