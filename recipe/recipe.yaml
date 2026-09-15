@@ -1,5 +1,5 @@
 context:
-  version: "1.14.0"
+  version: "1.14.1"
 
 package:
   name: sing-box
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/SagerNet/sing-box/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 87baf6852e37941cbe40bdd94bec81c957c88a56751cecd6bbf0e6108bc69398
+  sha256: 1ea41f7d06b0017fe3d3ba7ee30959048aa0ddde31cb0165dab9257edf673321
 
 build:
   number: 0
